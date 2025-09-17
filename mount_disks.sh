@@ -7,5 +7,5 @@ function is_mounted() {
 ## example usage for ensuring a share 'stuff' is always mounted
 if [[ $(is_mounted stuff) == "unmounted" ]]; then
 	echo "stuff is not mounted $(date)"
-	osascript -e "mount volume \"smb://${NASUSERID}:${NASPASSWORD}@nas/stuff\""
+	osascript -e "mount volume \"smb://${NASUSERID}:${NASPASSWORD}@nas._smb._tcp.local/stuff\""
 fi

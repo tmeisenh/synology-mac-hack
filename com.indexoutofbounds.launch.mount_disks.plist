@@ -29,6 +29,10 @@
 			<string>password</string>
 			<key>NASUSERID</key>
 			<string>user</string>
+			<key>GMAIL_USER</key>
+			<string>some-gmail-account</string>
+			<key>ALERT_EMAIL</key>
+			<string>some-email-address</string>
 		</dict>
 	</dict>
 </plist>
